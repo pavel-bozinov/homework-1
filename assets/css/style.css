@@ -56,7 +56,7 @@
     text-align: center;
 }
 
-.strengthening-relationships {
+.event {
     margin-bottom: 72px;
 }
 
@@ -141,4 +141,63 @@
     font-weight: 700;
     font-size: 20px;
     border: 0px;
+}
+
+.speakers {
+    margin-bottom: 25px;
+}
+
+.speakers-title {
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 81px;
+    color: #151517;
+    padding-bottom: 18px;
+}
+
+.view-all-link {
+    font-weight: 500;
+    color:#424245;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: none;
+    
+}
+
+.view-all-link:hover {
+    color:#424245;
+}
+
+.speakers-head {
+    border-bottom: 1px solid #C8C8C8;
+}
+
+.speakers-profiles {
+    margin-top: 40px;
+}
+
+.speakers-overview {
+    color: #151517;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.speaker-blue {
+    background-color: #66A3FF;
+    max-width: 444px;
+    max-height: 576px;
+}
+
+.speaker-lblue {
+    background-color: #BCD7FF;
+    max-width: 444px;
+    max-height: 576px;
+}
+
+
+.speaker-inner {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
 }
