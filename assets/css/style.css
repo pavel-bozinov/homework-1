@@ -40,12 +40,12 @@
 
 .webinar {
     margin-top: 112px;
-    margin-bottom: 112px;
+    margin-bottom: 122px;
 }
 
 .webinar-col {
     max-width: 805px;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .webinar-title {
@@ -54,4 +54,89 @@
     text-align: center;
 }
 
+.strengthening-relationships {
+    margin-bottom: 72px;
+}
 
+.image {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.img-star {
+    z-index: 222;
+    position: absolute;
+    max-width: 100%;
+    height:auto;
+    right:-15px;
+    top:-30px
+}
+
+.images-parent {
+    position:relative;
+}
+
+@media only screen and (max-width: 768px) {
+    .images-parent {
+        height: 300px;
+    }
+
+    .image {
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .img-star {
+        right:0px;
+    }
+}
+
+.event-text {
+    margin-top: 24px;
+}
+
+.event-title-content {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.event-date .event-date-content:not(:last-child)
+{
+    margin-right: 32px;
+}
+
+.event-date-content {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+
+.event-bio-content {
+   font-size: 16px;
+   font-weight: 400;
+   color: #424245;
+   margin-bottom: 22px;
+}
+
+.event-bio {
+    max-width: 760px;
+}
+
+.event-title {
+    max-width: 465px;
+}
+
+.event-button {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0px;
+}
